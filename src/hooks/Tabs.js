@@ -12,8 +12,7 @@ const content = [
 ];
 
 const useTabs = (initialTab, allTabs) => {
-  if (!allTabs || !Array.isArray(allTabs)) {
-  }
+  //   if (!allTabs || !Array.isArray(allTabs)) {}
   const [currentIndex, setCurrentIndex] = useState(initialTab);
   return {
     currentItem: allTabs[currentIndex],
