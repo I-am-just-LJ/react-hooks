@@ -5,6 +5,8 @@ import State from "./hooks/State";
 import Tabs from "./hooks/Tabs";
 import Title from "./hooks/Title";
 import Click from "./hooks/Click";
+import Confirm from "./hooks/Confirm";
+import Prevent from "./hooks/Prevent";
 
 import "./styles.css";
 
@@ -17,6 +19,8 @@ const App = () => {
       <Tabs />
       <Title />
       <Click />
+      <Confirm />
+      <Prevent />
     </div>
   );
 };
