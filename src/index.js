@@ -3,6 +3,7 @@ import ReactDom from "react-dom";
 import Input from "./hooks/Input.js";
 import State from "./hooks/State.js";
 import Tabs from "./hooks/Tabs.js";
+import Title from "./hooks/Title.js";
 
 import "./styles.css";
 
@@ -13,6 +14,7 @@ const App = () => {
       <State />
       <Input />
       <Tabs />
+      <Title />
     </div>
   );
 };
