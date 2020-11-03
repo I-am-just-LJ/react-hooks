@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDom from "react-dom";
-import Input from "./hooks/Input.js";
-import State from "./hooks/State.js";
-import Tabs from "./hooks/Tabs.js";
-import Title from "./hooks/Title.js";
+import Input from "./hooks/Input";
+import State from "./hooks/State";
+import Tabs from "./hooks/Tabs";
+import Title from "./hooks/Title";
+import Click from "./hooks/Click";
 
 import "./styles.css";
 
@@ -15,6 +16,7 @@ const App = () => {
       <Input />
       <Tabs />
       <Title />
+      <Click />
     </div>
   );
 };
