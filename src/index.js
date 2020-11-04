@@ -8,6 +8,7 @@ import Click from "./hooks/Click";
 import Confirm from "./hooks/Confirm";
 import Prevent from "./hooks/Prevent";
 import Beforeleave from "./hooks/Beforeleave";
+import Fadein from "./hooks/Fadein";
 
 import "./styles.css";
 
@@ -23,6 +24,7 @@ const App = () => {
       <Confirm />
       <Prevent />
       <Beforeleave />
+      <Fadein />
     </div>
   );
 };

@@ -21,7 +21,7 @@ const Beforeleave = () => {
   useBeforeLeave(begForLife);
   return (
     <div>
-      <h2>Hello</h2>
+      <h2>useBeforeLeave</h2>
     </div>
   );
 };

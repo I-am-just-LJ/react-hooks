@@ -8,3 +8,4 @@
 6. useConfirm
 7. usePreventLeave
 8. useBeforeLeave
+9. useFadeIn
