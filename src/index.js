@@ -9,6 +9,7 @@ import Confirm from "./hooks/Confirm";
 import Prevent from "./hooks/Prevent";
 import Beforeleave from "./hooks/Beforeleave";
 import Fadein from "./hooks/Fadein";
+import Network from "./hooks/Network";
 
 import "./styles.css";
 
@@ -25,6 +26,7 @@ const App = () => {
       <Prevent />
       <Beforeleave />
       <Fadein />
+      <Network />
     </div>
   );
 };
