@@ -7,3 +7,4 @@
 5. useClick
 6. useConfirm
 7. usePreventLeave
+8. useBeforeLeave
