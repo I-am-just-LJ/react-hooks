@@ -11,3 +11,4 @@
 9. useFadeIn
 10. useNetwork
 11. useScroll
+12. useFullscreen

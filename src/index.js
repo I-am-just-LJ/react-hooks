@@ -13,6 +13,7 @@ import Network from "./hooks/Network";
 import Scroll from "./hooks/Scroll";
 
 import "./styles.css";
+import Fullscreen from "./hooks/useFullscreen";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
       <Fadein />
       <Network />
       <Scroll />
+      <Fullscreen />
     </div>
   );
 };
