@@ -11,8 +11,8 @@ import Beforeleave from "./hooks/Beforeleave";
 import Fadein from "./hooks/Fadein";
 import Network from "./hooks/Network";
 import Scroll from "./hooks/Scroll";
-import Fullscreen from "./hooks/useFullscreen";
-import Notification from "./hooks/Notification";
+import Fullscreen from "./hooks/Fullscreen";
+import Noti from "./hooks/Noti";
 
 import "./styles.css";
 
@@ -32,7 +32,7 @@ const App = () => {
       <Network />
       <Scroll />
       <Fullscreen />
-      <Notification />
+      <Noti />
     </div>
   );
 };

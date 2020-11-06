@@ -6,7 +6,7 @@ const useNotification = (title, options) => {
   }
   const fireNoti = () => {
     if (Notification.permission !== "granted") {
-      Notification.requestPermission().then((permission) => {
+      window.Notification.requestPermission().then((permission) => {
         if (permission === "granted") {
           new Notification(title, options);
         } else {
@@ -20,7 +20,7 @@ const useNotification = (title, options) => {
   return fireNoti;
 };
 
-const Notification = () => {
+const Noti = () => {
   const triggerNoti = useNotification("Wassup!", { body: "How r u?" });
   return (
     <div>
@@ -30,4 +30,4 @@ const Notification = () => {
   );
 };
 
-export default Notification;
+export default Noti;
