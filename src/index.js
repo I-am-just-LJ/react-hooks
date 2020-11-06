@@ -10,12 +10,13 @@ import Prevent from "./hooks/Prevent";
 import Beforeleave from "./hooks/Beforeleave";
 import Fadein from "./hooks/Fadein";
 import Network from "./hooks/Network";
+import Scroll from "./hooks/Scroll";
 
 import "./styles.css";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App" style={{ height: "1000vh" }}>
       <h1>Learning React Hooks</h1>
       <State />
       <Input />
@@ -27,6 +28,7 @@ const App = () => {
       <Beforeleave />
       <Fadein />
       <Network />
+      <Scroll />
     </div>
   );
 };
