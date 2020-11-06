@@ -12,3 +12,4 @@
 10. useNetwork
 11. useScroll
 12. useFullscreen
+13. useNotification
