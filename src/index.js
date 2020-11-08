@@ -13,10 +13,14 @@ import Network from "./hooks/Network";
 import Scroll from "./hooks/Scroll";
 import Fullscreen from "./hooks/Fullscreen";
 import Noti from "./hooks/Noti";
+import useAxios from "./hooks/Axios";
 
 import "./styles.css";
 
 const App = () => {
+  const [{ loading, data, error, refetch }] = useAxios({
+    url: "https://yts.am/api/v2/list_movies.json",
+  });
   return (
     <div className="App" style={{ height: "1000vh" }}>
       <h1>Learning React Hooks</h1>
@@ -33,6 +37,12 @@ const App = () => {
       <Scroll />
       <Fullscreen />
       <Noti />
+      <div>
+        <h2>useAxios</h2>
+        <h3>{data && data.status}</h3>
+        <h3>{loading && "Loading"} </h3>
+        <button onClick={refetch}>Refetch</button>
+      </div>
     </div>
   );
 };
